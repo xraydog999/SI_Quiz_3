@@ -79,4 +79,5 @@ def load_questions():
             "q": "The Kelvin temperature scale is:",
             "choices": ["based on water", "not based on any substance", "based on oxygen"],
             "answer": "not based on any substance",
-            "explanation": "Kelvin is based on absolute zero, not on properties of any material
+
+            "explanation": "Kelvin is based on absolute zero, not on properties of any material"
