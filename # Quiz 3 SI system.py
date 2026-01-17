@@ -60,7 +60,7 @@ questions = [
      ["1.00 g/mL", "0.10 g/mL", "10.0 g/mL"],
      "1.00 g/mL"),
 
-    ("On Mars, the mass of an object:",
+    ("On Mars, compared to Earth, the mass of an object:",
      ["is the same", "is smaller", "is larger"],
      "is the same"),
 
@@ -130,4 +130,5 @@ if st.button("Submit Quiz"):
         st.info("Good effort — keep practicing!")
     else:
         st.warning("Consider reviewing the SI system and trying again.")
+
 
