@@ -8,48 +8,48 @@ st.write("A 10‑question multiple‑choice quiz for science students. No answer
 # -----------------------------
 questions = [
     # Addition (2)
-    ("What is 12 + 7?",
-     ["17", "19", "21"],
-     "19"),
+    ("What is 12.2 + 7.21?",
+     ["19.41", "19.4", "19"],
+     "19.4"),
 
-    ("A scientist mixes 23 mL and 18 mL of solution. What is the total volume?",
-     ["41 mL", "38 mL", "35 mL"],
-     "41 mL"),
+    ("A scientist mixes 23.00 mL and 18.00 mL of solution. What is the total volume?",
+     ["41 mL", "41.0 mL", "41.00 mL"],
+     "41.00 mL"),
 
     # Subtraction (2)
-    ("A sample originally has a mass of 50 g but loses 12 g during heating. What is the final mass?",
-     ["32 g", "38 g", "42 g"],
-     "38 g"),
+    ("A sample originally has a mass of 20.820 g but loses 12.0 g during heating. What is the final mass?",
+     ["8.8 g", "8.82 g", "8.820 g"],
+     "8.8, g"),
 
-    ("A thermometer reads 28°C but the actual temperature is 6°C lower. What is the true temperature?",
-     ["22°C", "20°C", "24°C"],
-     "22°C"),
+    ("A thermometer reads 28.7°C but the actual temperature is 6.1°C lower. What is the true temperature?",
+     ["22°C", "22.6°C", "23°C"],
+     "22.6°C"),
 
     # Multiplication (3)
     ("A box contains 6 test tubes. How many test tubes are in 7 boxes?",
-     ["36", "42", "48"],
+     ["36", "42", "42.0"],
      "42"),
 
-    ("A reaction produces 4 g of product per trial. How much is produced in 9 trials?",
-     ["36 g", "45 g", "32 g"],
-     "36 g"),
+    ("A reaction produces 4.10 g of product per trial. How much is produced in 9 trials?",
+     ["36 g", "37 g", "36.9 g"],
+     "36.9 g"),
 
-    ("A microscope magnifies an object 3×. If the object is 5 mm long, what is the magnified length?",
-     ["10 mm", "15 mm", "20 mm"],
-     "15 mm"),
+    ("Multiply 2.00  x 4.0  x  6 ?",
+     ["50  ", "48  ", "48.0  "],
+     "50  "),
 
     # Division (3)
     ("A 40 g sample is divided evenly into 5 portions. What is the mass of each portion?",
-     ["5 g", "8 g", "10 g"],
+     ["8.0 g", "8 g", "10 g"],
      "8 g"),
 
-    ("A scientist has 120 mL of solution and fills containers with 10 mL each. How many containers can be filled?",
-     ["10", "12", "15"],
-     "12"),
+    (" 6.00   x  3.0  /  2.00 ?",
+     ["9", "9.00", "9.0"],
+     "9.0"),
 
-    ("A 72‑page lab manual is divided into 8 equal sections. How many pages per section?",
-     ["8", "9", "12"],
-     "9")
+    ("  4.240  x  3.56  / 2.00",
+     ["7.54", "7.55", "7.60"],
+     "7.55")
 ]
 
 # -----------------------------
@@ -91,3 +91,4 @@ if st.button("Submit Quiz"):
         st.info("Good effort — keep practicing.")
     else:
         st.warning("Review your math skills and try again.")
+
